@@ -3,6 +3,9 @@ let Queue = function() {
 let collection = 0;
 this.enqueue = function(element) {
 collection.push(element);
-}
+};
+this.dequeue = function() {
+return collection.shift();
+};
 
 }
