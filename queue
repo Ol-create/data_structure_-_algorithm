@@ -1,1 +1,8 @@
 /* Queue data structure */
+let Queue = function() {
+let collection = 0;
+this.enqueue = function(element) {
+collection.push(element);
+}
+
+}
