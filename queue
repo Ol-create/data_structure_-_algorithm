@@ -10,5 +10,8 @@ return collection.shift();
 this.print = function() {
 return console.log(collection);
 };
+this.front = function() {
+return collection[0];
+};
 
 }
